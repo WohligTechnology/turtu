@@ -1,0 +1,53 @@
+body{margin:0px;padding:0px;font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#000000;background-color:#666;text-align:left;}
+h1{font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#C00;font-weight:bold;}
+.textbg{font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#ffffff;font-weight:bold;margin-left:15px;}
+.textbg1{font-family:Arial, Helvetica, sans-serif;font-size:11px;font-style:italic;color:#FFFFcc;padding-left:15px;}
+.yellowbg{font-family:Arial, Helvetica, sans-serif;font-size:11px;font-style:normal;line-height:normal;color:#333;background-color:#FF9;font-weight:bold;}
+.orangebg{font-family:Arial, Helvetica, sans-serif;font-size:11px;font-style:normal;line-height:normal;color:#333;background-color:#FC6;}
+.textbg2{font-family:Arial, Helvetica, sans-serif;font-size:10px;color:#000000;}
+p{font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#666;text-align:justify;margin-left:10px;margin-right:10px;}
+a:link{font-family:Arial, Helvetica, sans-serif;font-size:12px;font-style:normal;color:#333;text-decoration:none;margin:0px;padding:0px;font-weight:bold;line-height:110%;}
+a:hover{font-family:Arial, Helvetica, sans-serif;font-size:12px;color:#333;font-weight:bold;}
+a:visited{font-family:Arial, Helvetica, sans-serif;font-size:12px;color:#333;font-weight:bold;text-align:center;}
+.h{font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#F00;font-weight:bold;}
+.bl{font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#0000FF;font-weight:bold;}
+.txtorange{color:#F60;font-size:11px;}
+.txtorange1{color:#F60;font-size:10px;}
+.txtblack{color:#000;}
+.otherartist{color:#000;font-size:11px;font-weight:bold;}
+.artistpt{color:red;font-size:11px;font-weight:bold;}
+.gobutton{Height:17px;Width:23px;font-size:9px;text-align:center;padding:0px !important;}
+.morebtn{color:#000;font-weight:bold;text-align:center;padding:0px !important;background-color:orange;}
+.txtbold{color:#C00;font-weight:bolder;padding-left:4px;}
+.evthd{color:#C00;font-weight:bold;font-size:13px;padding-left:4px;}
+.style1{color:#C00;}
+#upcoming{margin-left:106px;}
+#Div1{margin-left:106px;}
+#past{margin-left:106px;}
+.EventDetail{margin-left:5px;padding:0}
+.EventImg{border:1px solid #000;}
+.lstcrttitle{color:#000;}
+.Viewdetails{float:right;color:#F60;}
+.star{color:#FF9900;}
+.artist a:link{font-family:Arial, Helvetica, sans-serif;font-size:10px;color:#333;text-decoration:none;}
+.artist a:hover{font-family:Arial, Helvetica, sans-serif;font-size:10px;color:#333;text-decoration:underline;}
+.artist a:visited{font-family:Arial, Helvetica, sans-serif;font-size:10px;color:#333;}
+.drpsearch{font-family:Arial, Helvetica, sans-serif;font-size:9px;color:#000000;}
+.artistname{margin-left:10px;}
+.artistdetails{-moz-column-count:2;-moz-column-gap:50px;-webkit-column-count:2;-webkit-column-gap:50px;column-count:2;column-gap:50px;}
+.descbg{background-color:#E8E8E8;}
+.graybg{background-color:#EBEBEB;}
+.eventshead{font-family:Arial, Helvetica, sans-serif;font-size:12px;color:#C00;font-weight:bold;}
+ul{padding-left:16px;}
+.favtextbg{font-family:Arial, Helvetica, sans-serif;font-size:12px;color:#666;font-weight:bold;margin-left:0px;}
+.favtextbg1{font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#333;padding-left:0px;}
+.password{border:1px solid #ccc;border-radius:4px;width:40%;float:none;margin:70px auto;padding:10px;}
+.password h1{color:#000000;border-bottom:1px solid #ccc;padding:4px 0px;}
+.submit{padding-left:32px;}
+.eventdt a:link{font-family:Arial, Helvetica, sans-serif;font-size:10px;color:#000000;text-decoration:none;}
+.eventdt a:hover{font-family:Arial, Helvetica, sans-serif;font-size:10px;color:#000000;text-decoration:underline;}
+.eventdt a:visited{font-family:Arial, Helvetica, sans-serif;font-size:10px;color:#000000;}
+.eventcol {font-family:Arial, Helvetica, sans-serif;color:#000000;}
+.eventcol a:hover{font-family:Arial, Helvetica, sans-serif;font-size:12px;color:#000000;text-decoration:none;}
+.eventcol a:visited{font-family:Arial, Helvetica, sans-serif;font-size:12px;color:#000000; text-decoration:none;}
+

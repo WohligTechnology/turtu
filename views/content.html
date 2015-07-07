@@ -1,0 +1,60 @@
+<div class="container">
+   
+    <div class="row">
+        <div class="col-md-6">
+            <img src="http://localhost/AngularFramewok-master/img/logo.jpg">
+            <p><strong>The Art Enclave at UBM Index Fairs 2014</strong>
+            </p>
+            <p><strong>Event Venue :</strong> MMRDA Exhibition Centre, BKC, Mumbai</p>
+            <p><strong>Period of show : </strong>Thursday, 09 Oct 2014 - Sunday, 12 Oct 2014</p>
+            <p><strong>Event Time :</strong> 10.30 am to 7.00 pm</p>
+        </div>
+        <div class="col-md-3">
+            <img src="img/logo.jpg">
+        </div>
+        <div class="col-md-3">
+            <img src="img/logo.jpg">
+        </div>
+    </div>
+
+   
+    <div class="row">
+        Aura Art Development Pvt Ltd (“AADPL”) is delighted to announce a long term collaboration with UBM Index TradeFairs Pvt Ltd, for incorporating an exclusive Fine Art Section in INDEX FAIRS, India's monumental event for interiors, architecture and design. INDEX 2014 is being held on 9-10-11-12 October, 2014 at MMRDA Exhibition Center, Bandra-Kurla Complex, Mumbai. The Art Enclave at INDEX 2014 comprises of leading Galleries and Artists from across the country, displaying quality paintings, sculptures, photographs and prints. The Art Enclave, which is managed by AADPL, will be located in the first quadrant as you enter the venue, adjacent to the International Pavilion. INDEX FAIRS is organised by UBM Index TradeFairs Pvt Ltd, which is now part of Universal Business Media (UBM), a UK-based world leader in tradeshows. Index Fairs celebrated 25 successful years of service to the industry in 2013 and looks forward to offering the renowned Index service and focused business expertise to grow the business of its partners, from India and overseas. We would be glad to involve you in this interesting initiative, which is in line with UBM INDEX vision of providing an integrated platform for interiors and design and Aura Art vision to fill the gaps in the Indian Art Industry - by working closely with the design space to meet the Art requirements of various architects, interior designers, hotels, hospitals, corporates, real estate developers, office and home buyers. Other details of Index Fairs 2014 can be perused at http://ubmindexfairs.com/.
+
+    </div>
+    
+    
+    <div class="row">
+
+        <h3>List of Participants</h3>
+        <div class="col-md-8">
+            <h4>List of Participating Galleries </h4>
+            <div class="row" ng-repeat="post in posts">
+                <div class="col-md-4" ng-repeat="po in post">
+                    <p ng-bind-html="po.trail[0].content | rawHtml"></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <h4>List of Participating Artists</h4>
+            <div ng-repeat="artist in Artists.posts">
+                <p ng-bind-html="artist.trail[0].content | rawHtml"></p>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <h4>The Great Wall of Art </h4>
+            <div ng-repeat="ar in Art.posts">
+                <p ng-bind-html="ar.trail[0].content | rawHtml"></p>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="row" ng-repeat="photo in Photos">
+        <div class="col-md-4" ng-repeat="phot in photo" style="padding:10px;">
+            <img src="{{phot.photos[0].original_size.url}}" height="300px" width="380px">
+        </div>
+    </div>
+    
+    
+</div>
